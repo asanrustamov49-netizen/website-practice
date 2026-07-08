@@ -1,0 +1,28 @@
+.container {
+  padding-block: 120px;
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    .categories {
+      display: flex;
+      justify-content: space-between;
+      h1 {
+        margin-bottom: 30px;
+        font-size: 24px;
+      }
+      a {
+        span{
+            margin-top: 1px;
+        }
+        display: flex;
+        gap: 15px;
+        color: black;
+      }
+    }
+    .cards {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+}
